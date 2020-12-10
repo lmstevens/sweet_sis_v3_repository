@@ -1,4 +1,4 @@
-package com.nick.ecommerce.controller;
+package com.sweets.website.controller;
 
 import java.util.Currency;
 
@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 
-import com.nick.ecommerce.model.ChargeRequest;
-import com.nick.ecommerce.service.StripeService;
+import com.sweets.website.model.ChargeRequest;
+import com.sweets.website.service.StripeService;
 import com.stripe.exception.StripeException;
 import com.stripe.model.Charge;
 

@@ -1,12 +1,12 @@
-package com.nick.ecommerce.service;
+package com.sweets.website.service;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.nick.ecommerce.model.Product;
-import com.nick.ecommerce.repository.ProductRepository;
+import com.sweets.website.model.Product;
+import com.sweets.website.repository.ProductRepository;
 
 @Service
 public class ProductService {

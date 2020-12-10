@@ -1,4 +1,4 @@
-package com.nick.ecommerce.controller;
+package com.sweets.website.controller;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -15,10 +15,10 @@ import org.springframework.web.bind.annotation.PatchMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import com.nick.ecommerce.model.Product;
-import com.nick.ecommerce.model.User;
-import com.nick.ecommerce.service.ProductService;
-import com.nick.ecommerce.service.UserService;
+import com.sweets.website.model.Product;
+import com.sweets.website.model.User;
+import com.sweets.website.service.ProductService;
+import com.sweets.website.service.UserService;
 
 @Controller
 @ControllerAdvice

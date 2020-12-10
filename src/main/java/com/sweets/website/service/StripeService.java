@@ -1,4 +1,4 @@
-package com.nick.ecommerce.service;
+package com.sweets.website.service;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -9,7 +9,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.security.core.AuthenticationException;
 import org.springframework.stereotype.Service;
 
-import com.nick.ecommerce.model.ChargeRequest;
+import com.sweets.website.model.ChargeRequest;
 import com.stripe.Stripe;
 import com.stripe.exception.APIConnectionException;
 import com.stripe.exception.APIException;

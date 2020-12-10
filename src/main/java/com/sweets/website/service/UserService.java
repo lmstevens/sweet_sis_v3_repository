@@ -1,4 +1,4 @@
-package com.nick.ecommerce.service;
+package com.sweets.website.service;
 
 import java.util.Arrays;
 import java.util.HashSet;
@@ -12,11 +12,11 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import com.nick.ecommerce.model.Product;
-import com.nick.ecommerce.model.Role;
-import com.nick.ecommerce.model.User;
-import com.nick.ecommerce.repository.RoleRepository;
-import com.nick.ecommerce.repository.UserRepository;
+import com.sweets.website.model.Product;
+import com.sweets.website.model.Role;
+import com.sweets.website.model.User;
+import com.sweets.website.repository.RoleRepository;
+import com.sweets.website.repository.UserRepository;
 
 @Service
 public class UserService implements UserDetailsService{

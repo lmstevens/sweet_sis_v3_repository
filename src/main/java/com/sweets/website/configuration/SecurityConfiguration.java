@@ -1,4 +1,4 @@
-package com.nick.ecommerce.configuration;
+package com.sweets.website.configuration;
 
 
 import javax.sql.DataSource;

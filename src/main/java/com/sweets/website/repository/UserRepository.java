@@ -1,9 +1,9 @@
-package com.nick.ecommerce.repository;
+package com.sweets.website.repository;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
-import com.nick.ecommerce.model.User;
+import com.sweets.website.model.User;
 
 @Repository
 public interface UserRepository extends CrudRepository<User, Long> {

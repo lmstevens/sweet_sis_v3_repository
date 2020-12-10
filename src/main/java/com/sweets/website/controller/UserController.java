@@ -1,4 +1,4 @@
-package com.nick.ecommerce.controller;
+package com.sweets.website.controller;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import com.nick.ecommerce.model.User;
-import com.nick.ecommerce.service.UserService;
+import com.sweets.website.model.User;
+import com.sweets.website.service.UserService;
 
 @Controller
 public class UserController {
