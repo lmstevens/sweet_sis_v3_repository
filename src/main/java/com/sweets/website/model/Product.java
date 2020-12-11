@@ -1,11 +1,17 @@
 package com.sweets.website.model;
 
-
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+
+import org.hibernate.annotations.CascadeType;
+import org.hibernate.annotations.OnDelete;
+import org.hibernate.annotations.OnDeleteAction;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -18,62 +24,25 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
-// public class Product {
-	
-//     @Id
-//     @GeneratedValue(strategy = GenerationType.AUTO)
-//     @Column(name = "user_id")
-//     private Long id;
-
-//     private int quantity;
-//     private int price;
-    
-//     private String name;
-//     private String description;
-//     private String brand;
-//     private String category;
-//     private String image;
-    
-// }
-
 public class Product {
 	
-
     @Id
-    @Column(name = "product_id") // this used to be user_id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    @Column(name = "product_id")
     private Long id;
-
-    @Column(name = "price")
-    private int price;
     
-    @Column(name = "description")
-    private String description;
-    
-    @Column(name = "name")
+    @Column(name = "product_name")
     private String name;
-
-    @Column(name = "flavor")
+    
+    private Double price;
+    private String description;
     private String flavor;
-
-    @Column(name = "color")
     private String color;
-
-    @Column(name = "icing_flavor")
     private String icing_flavor;
-
-    @Column(name = "cake_sprinkles")
     private String cake_sprinkles;
     
-    @Column(name = "category")
-    private String category;
-
-    @Column(name = "img_url")
-    private String img_url;
-
-    @Column(name = "quantity")
-    private int quantity;
-
-    @Column(name = "brand")
-    private String brand;
-    
+    @ManyToOne(fetch = FetchType.LAZY, optional = false)
+    @JoinColumn(name = "category_id")
+    @OnDelete(action = OnDeleteAction.CASCADE)
+    private Category category;
 }
