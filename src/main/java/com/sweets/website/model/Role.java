@@ -16,6 +16,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
+
 public class Role {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)

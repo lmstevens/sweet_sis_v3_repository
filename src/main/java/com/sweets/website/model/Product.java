@@ -45,4 +45,6 @@ public class Product {
     @JoinColumn(name = "category_id")
     @OnDelete(action = OnDeleteAction.CASCADE)
     private Category category;
+
+    private String brand;
 }
