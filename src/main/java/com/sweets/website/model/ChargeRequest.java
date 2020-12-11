@@ -1,4 +1,4 @@
-package com.nick.ecommerce.model;
+package com.sweets.website.model;
 
 
 import lombok.Data;

@@ -1,4 +1,4 @@
-package com.nick.ecommerce.controller;
+package com.sweets.website.controller;
 
 import javax.validation.Valid;
 
@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import com.nick.ecommerce.model.Product;
-import com.nick.ecommerce.service.ProductService;
+import com.sweets.website.model.Product;
+import com.sweets.website.service.ProductService;
 
 @Controller
 public class ProductController {

@@ -1,4 +1,4 @@
-package com.nick.ecommerce.controller;
+package com.sweets.website.controller;
 
 import javax.validation.Valid;
 
@@ -9,8 +9,8 @@ import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 
-import com.nick.ecommerce.model.User;
-import com.nick.ecommerce.service.UserService;
+import com.sweets.website.model.User;
+import com.sweets.website.service.UserService;
 
 @Controller
 public class AuthorizationController {

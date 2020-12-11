@@ -1,0 +1,153 @@
+@charset "ISO-8859-1";
+body{
+	background: #FFF0E6;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	margin: 50px, 100px;
+	}
+​
+.emptycart,
+h3, 
+p {
+	color: #A285AA;
+	text-align: center;
+}
+​
+h1 {
+	color:  #772262;
+	font-family: 'Cagliostro', sans-serif;
+	font-size: 40px;
+	margin-top: 20px !important;
+}
+​
+h2 {
+	color:  #E35653;
+	padding-top: 10px;
+	font-family: 'Cagliostro', sans-serif;
+}
+​
+h3{
+	font-size: 25px;
+}
+​
+h4{
+	color: #FFF0E6;
+	font-family: 'Cagliostro', sans-serif;
+}
+​
+p {
+	font-size: 15px;
+}
+​
+form {
+	display: inline-block;
+}
+	
+input {
+	border-radius: 3px;
+	border-width: .5px;
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 15px;
+}
+​
+.container {
+	margin-top: 30px;
+}
+​
+img {
+	border-radius: 10px;
+	margin-top: 10px;
+}
+​
+.navbar-toggler {
+	width: 60px;
+	background-color: #A285AA !important;
+}
+​
+.navbar {
+	background: #772262 !important;
+	font-family: 'Abel', sans-serif;
+}
+​
+.navbar-brand {
+	color:  #ffffff !important;
+	font-family: 'Cagliostro', sans-serif;
+	font-size: 30px;
+}
+​
+.nav-link {
+ color: #FFA360 !important;
+ }
+​
+.jumbotron {
+	background-image: url("https://www.bakersroyale.com/wp-content/uploads/2017/02/Black-Cherry-Macarons-Bakers-Royale-720x720.jpg");
+	background-size: cover;
+}
+​
+.display-3 {
+	color: #FFF0E6;
+}
+​
+.btn-primary {
+	background-color: #FFA360 !important;
+	border: #FFA360;
+	font-family: 'Roboto', sans-serif;
+	color: #FFF0E6 !important;
+}
+​
+.btn-success {
+	background-color: #772262 !important;
+	border: #772262;
+	font-family: 'Roboto', sans-serif;
+	color: #FFF0E6 !important;
+	}
+	
+.btn-danger {
+	background-color: #E35653 !important;
+	border: #E35653;
+	font-family: 'Roboto', sans-serif;
+	color: #FFF0E6 !important;
+}
+​
+.card{
+	background-color: #A285AA;
+}	
+.card-img-top{
+	padding-right: 10px;
+	padding-left: 10px;
+}
+​
+.card-img{
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+​
+.card-title{
+	font-family: 'Cagliostro', sans-serif;
+	color: #FFF0E6;
+}
+​
+.card-text{
+	font-family: 'Roboto', sans-serif;
+	color: #772262;
+}
+​
+th,
+td,
+#checkoutform,
+.success {
+	font-family: 'Roboto', sans-serif;
+	color: #772262;
+}
+​
+.login2,
+.login {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+​
+.login{
+	margin-bottom: 20px;
+}

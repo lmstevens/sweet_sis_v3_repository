@@ -1,5 +1,4 @@
-package com.nick.ecommerce.model;
-
+package com.sweets.website.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -17,21 +16,11 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
-public class Product {
-	
+
+public class Role {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    @Column(name = "user_id")
+    @Column(name = "role_id")
     private Long id;
-
-    private int quantity;
-    private int price;
-    
-    private String name;
-    private String description;
-    private String brand;
-    private String category;
-    private String image;
-    
+    private String role;
 }
-
